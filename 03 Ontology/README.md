@@ -18,7 +18,7 @@ better suit the scope and emphasis of floating wind arrays.
 An explanation of the ontology sections is found below. 
 For a blank ontology template, see the file OntologyTemplate.yaml.
 For an example, see the [ontology sample](./examples/ontology_sample.yaml) in the examples folder.
-The IEA Wind Task 49 Intermediate Water Reference Array Design is described in the ontology [here](./Task49_Intermediate_Water_Array_Design/task49_intermediate_array.yaml). Further examples can be found in the FAD-Toolset examples set [here](https://github.com/FloatingArrayDesign/FAD-Toolset/tree/dev/examples/01_Visualization).
+The IEA Wind Task 49 Intermediate Water Reference Array Design is described in the ontology [here](./Task49_Intermediate_Water_Array_Design/03 Ontology/task49_intermediate_array.yaml). Further examples can be found in the FAD-Toolset examples set [here](https://github.com/FloatingArrayDesign/FAD-Toolset/tree/dev/examples/01_Visualization).
 
 This readme provides an overview of the ontology to facilitate feedback and iteration. It is not yet finalized. Comments are welcome in the Issues page. The current ontology sections are as follows:
 
