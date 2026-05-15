@@ -1,0 +1,1097 @@
+site: # options to add marine growth and metocean to this section
+  general: # CHANGED- updated to intermediate depth value
+    water_depth: 300.0
+    rho_air: 1.225
+    rho_water: 1025.0
+    mu_air: 1.81e-05
+  boundaries:
+    x_y: # CHANGED- updated to intermediate depth value taken from spreadsheet (with 0, 0 at 587694.8, 657176.7 array centre)
+    - [-8755.2, 6218.3]
+    - [11325.8, 6098.3]
+    - [11261.2, -6124.67]
+    - [-8819.8, -6003.9]
+    - [-8755.2, 6218.3]
+
+array:
+  keys: [ID, topsideID, platformID, mooringID, x_location, y_location, z_location,
+    heading_adjust]
+  data:
+  - [fowt0, 1, 1, ms0, -7560.0, -5040.0, 0.0, 20.0]
+  - [fowt1, 1, 1, ms0, -5880.0, -5040.0, 0.0, 20.0]
+  - [fowt2, 1, 1, ms0, -4200.0, -5040.0, 0.0, 20.0]
+  - [fowt3, 1, 1, ms0, -2520.0, -5040.0, 0.0, 20.0]
+  - [fowt4, 1, 1, ms0, -840.0,  -5040.0, 0.0, 20.0]
+  - [fowt5, 1, 1, ms0, 840.0,   -5040.0, 0.0, 20.0]
+  - [fowt6, 1, 1, ms0, 2520.0,  -5040.0, 0.0, 20.0]
+  - [fowt7, 1, 1, ms0, 4200.0,  -5040.0, 0.0, 20.0]
+  - [fowt8, 1, 1, ms0, 5880.0,  -5040.0, 0.0, 20.0]
+  - [fowt9, 1, 1, ms0, 7560.0,  -5040.0, 0.0, 20.0]
+  - [fowt10, 1, 1, ms0, -6720.0,    -3360.0, 0.0, 20.0]
+  - [fowt11, 1, 1, ms0, -5040.0,    -3360.0, 0.0, 20.0]
+  - [fowt12, 1, 1, ms0, -3360.0,    -3360.0, 0.0, 20.0]
+  - [fowt13, 1, 1, ms0, -1680.0,    -3360.0, 0.0, 20.0]
+  - [fowt14, 1, 1, ms0, 0.0,    -3360.0, 0.0, 20.0]
+  - [fowt15, 1, 1, ms0, 1680.0, -3360.0, 0.0, 20.0]
+  - [fowt16, 1, 1, ms0, 3360.0, -3360.0, 0.0, 20.0]
+  - [fowt17, 1, 1, ms0, 5040.0, -3360.0, 0.0, 20.0]
+  - [fowt18, 1, 1, ms0, 6720.0, -3360.0, 0.0, 20.0]
+  - [fowt19, 1, 1, ms0, -7560.0,    -1680.0, 0.0, 20.0]
+  - [fowt20, 1, 1, ms0, -5880.0,    -1680.0, 0.0, 20.0]
+  - [fowt21, 1, 1, ms0, -4200.0,    -1680.0, 0.0, 20.0]
+  - [fowt22, 1, 1, ms0, -2520.0,    -1680.0, 0.0, 20.0]
+  - [fowt23, 1, 1, ms0, -840.0, -1680.0, 0.0, 20.0]
+  - [fowt24, 1, 1, ms0, 840.0,  -1680.0, 0.0, 20.0]
+  - [fowt25, 1, 1, ms0, 2520.0, -1680.0, 0.0, 20.0]
+  - [fowt26, 1, 1, ms0, 4200.0, -1680.0, 0.0, 20.0]
+  - [fowt27, 1, 1, ms0, 5880.0, -1680.0, 0.0, 20.0]
+  - [fowt28, 1, 1, ms0, 7560.0, -1680.0, 0.0, 20.0]
+  - [fowt29, 1, 1, ms0, -6720.0,    0.0, 0.0, 20.0]
+  - [fowt30, 1, 1, ms0, -5040.0,    0.0, 0.0, 20.0]
+  - [fowt31, 1, 1, ms0, -3360.0,    0.0, 0.0, 20.0]
+  - [fowt32, 1, 1, ms0, -1680.0,    0.0, 0.0, 20.0]
+  - [fowt33, 1, 1, ms0, 0.0,    0.0, 0.0, 20.0]
+  - [fowt34, 1, 1, ms0, 1680.0, 0.0, 0.0, 20.0]
+  - [fowt35, 1, 1, ms0, 3360.0, 0.0, 0.0, 20.0]
+  - [fowt36, 1, 1, ms0, 5040.0, 0.0, 0.0, 20.0]
+  - [fowt37, 1, 1, ms0, 6720.0, 0.0, 0.0, 20.0]
+  - [fowt38, 1, 1, ms0, -7560.0,    1680.0, 0.0, 20.0]
+  - [fowt39, 1, 1, ms0, -5880.0,    1680.0, 0.0, 20.0]
+  - [fowt40, 1, 1, ms0, -4200.0,    1680.0, 0.0, 20.0]
+  - [fowt41, 1, 1, ms0, -2520.0,    1680.0, 0.0, 20.0]
+  - [fowt42, 1, 1, ms0, -840.0, 1680.0, 0.0, 20.0]
+  - [fowt43, 1, 1, ms0, 840.0,  1680.0, 0.0, 20.0]
+  - [fowt44, 1, 1, ms0, 2520.0, 1680.0, 0.0, 20.0] 
+  - [fowt45, 1, 1, ms0, 4200.0, 1680.0, 0.0, 20.0]
+  - [fowt46, 1, 1, ms0, 5880.0, 1680.0, 0.0, 20.0]
+  - [fowt47, 1, 1, ms0, 7560.0, 1680.0, 0.0, 20.0]
+  - [fowt48, 1, 1, ms0, -6720.0,    3360.0, 0.0, 20.0]
+  - [fowt49, 1, 1, ms0, -5040.0,    3360.0, 0.0, 20.0]
+  - [fowt50, 1, 1, ms0, -3360.0,    3360.0, 0.0, 20.0]
+  - [fowt51, 1, 1, ms0, -1680.0,    3360.0, 0.0, 20.0]
+  - [fowt52, 1, 1, ms0, 0.0,    3360.0, 0.0, 20.0]
+  - [fowt53, 1, 1, ms0, 1680.0, 3360.0, 0.0, 20.0]
+  - [fowt54, 1, 1, ms0, 3360.0, 3360.0, 0.0, 20.0]    
+  - [fowt55, 1, 1, ms0, 5040.0, 3360.0, 0.0, 20.0]
+  - [fowt56, 1, 1, ms0, 6720.0, 3360.0, 0.0, 20.0]
+  - [fowt57, 1, 1, ms0, -7560.0,    5040.0, 0.0, 20.0]
+  - [fowt58, 1, 1, ms0, -5880.0,    5040.0, 0.0, 20.0]
+  - [fowt59, 1, 1, ms0, -4200.0,    5040.0, 0.0, 20.0]
+  - [fowt60, 1, 1, ms0, -2520.0,    5040.0, 0.0, 20.0]
+  - [fowt61, 1, 1, ms0, -840.0, 5040.0, 0.0, 20.0]
+  - [fowt62, 1, 1, ms0, 840.0,  5040.0, 0.0, 20.0]
+  - [fowt63, 1, 1, ms0, 2520.0, 5040.0, 0.0, 20.0]
+  - [fowt64, 1, 1, ms0, 4200.0, 5040.0, 0.0, 20.0]
+  - [fowt65, 1, 1, ms0, 5880.0, 5040.0, 0.0, 20.0]
+  - [fowt66, 1, 1, ms0, 7560.0, 5040.0, 0.0, 20.0]
+  - [substation, 0, 2, 0, 10364.2, -28.7, 0.0, 0.0] # no mooring system associated with substation.
+
+platforms:
+- !include UMaine_VolturnUS-S.yaml # PlatformID 1 is UMaine VolturnUS-S platform for a FOWT. This file is the definition file.
+- !include Substation_UMaine_VolturnUS-S.yaml # PlatformID 2 is platform for a Substation. This file is the definition file.
+
+topsides:
+- !include IEA-15-240-RWT_definition.yaml # topsideID 1 is IEA 15 MW wind turbine definition. This file is the definition file
+
+
+mooring_systems: # CHANGED - updated for intermediate design
+  ms0:
+    keys: [MooringConfigID, heading, anchorType]
+    data:
+    - [catenary_config, 0.0, drag-embedment1]
+    - [catenary_config, 120.0, drag-embedment1]
+    - [catenary_config, 240.0,  drag-embedment1]
+
+mooring_line_configs:
+  catenary_config:
+    name: catenary mooring line configuration
+    span: 979.6 # CHANGED - added overall mooring radius from intermediate array mooring design; update sections
+    sections: 
+    - connectorType: shackle
+    - type: wire_160mm
+      length: 280.0
+    - connectorType: clump_weight_80
+    - type: chain_175mm
+      length: 817.0
+    - connectorType: shackle
+
+mooring_line_types:
+  chain_175mm:
+    d_nom:    0.175      # [m] nominal diameter
+    d_vol:    0.315      # [m] volume-equivalent diameter
+    m:        612.5      # [kg/m] mass per unit length (linear mass density)
+    EA:      2621e6      # [N] quasi-static stiffness
+    MBL:     22.5e6      # [N] minimum breaking load (fully corroded)
+    cost:      4.44      # [$/kg] cost per unit mass
+    material: chain      # [-] material composition descriptor
+    material_details:  R4 studless  # [-] material composition descriptor
+    name: chain_175mm
+  wire_160mm: 
+    d_nom:    0.160       # [m] nominal diameter
+    d_vol:    0.188       # [m] volume-equivalent diameter
+    m:        135.5       # [kg/m] mass per unit length (linear mass density)
+    EA:       2486e6      # [N] quasi-static stiffness
+    MBL:    26.16e6       # [N] minimum breaking load
+    cost:      5.39       # [$/kg] cost per unit mass
+    material: wire rope   # [-] material composition descriptor
+    material_details:  sheathed spiral strand wire  # [-] material composition descriptor
+    name: wire_160mm
+
+mooring_connector_types:
+  clump_weight_80:
+    m: 80000.0          # [kg] mass of clump weight
+    type: clump_weight_80
+    cost: 0.576         # [$/kg] cost per unit mass
+  shackle: # no shackle was designed/selected for this project
+    m: 0.0
+    v: 0.2 # value copied from deepwater report
+    type: shackle
+anchor_types:
+  drag-embedment1:
+    type: dea
+    d: 23.5           # Penetration depth of anchor into seabed [m]
+    L: 9.70
+    m: 40360.0        # mass of anchor [kg]   
+    cost: 5.705       # [$/kg] cost per unit mass                         
+    
+cables:         
+- name: IAC_01
+  endA:
+    attachID: substation
+    heading: 331
+    dynamicID: None
+  endB:
+    attachID: fowt66
+    heading: 131
+    dynamicID: dynamic_1000
+  type: static_1000-1
+- name: IAC_02
+  endA:
+    attachID: fowt66
+    heading: 250
+    dynamicID: dynamic_1000
+  endB:
+    attachID: fowt65
+    heading: 70
+    dynamicID: dynamic_1000
+  type: static_1000
+- name: IAC_03
+  endA:
+    attachID: fowt65
+    heading: 250
+    dynamicID: dynamic_630
+  endB:
+    attachID: fowt64
+    heading: 70
+    dynamicID: dynamic_630
+  type: static_630
+- name: IAC_04
+  endA:
+    attachID: fowt64
+    heading: 250
+    dynamicID: dynamic_630
+  endB:
+    attachID: fowt63
+    heading: 70
+    dynamicID: dynamic_630
+  type: static_630
+- name: IAC_05
+  endA:
+    attachID: fowt63
+    heading: 250
+    dynamicID: dynamic_630
+  endB:
+    attachID: fowt62
+    heading: 70
+    dynamicID: dynamic_630
+  type: static_630
+- name: IAC_06
+  endA:
+    attachID: fowt62
+    heading: 250
+    dynamicID: dynamic_300
+  endB:
+    attachID: fowt61
+    heading: 70
+    dynamicID: dynamic_300
+  type: static_300
+- name: IAC_07
+  endA:
+    attachID: fowt61
+    heading: 250
+    dynamicID: dynamic_300
+  endB:
+    attachID: fowt60
+    heading: 70
+    dynamicID: dynamic_300
+  type: static_300
+- name: IAC_08
+  endA:
+    attachID: fowt60
+    heading: 250
+    dynamicID: dynamic_300
+  endB:
+    attachID: fowt59
+    heading: 70
+    dynamicID: dynamic_300
+  type: static_300
+- name: IAC_09
+  endA:
+    attachID: fowt59
+    heading: 250
+    dynamicID: dynamic_300
+  endB:
+    attachID: fowt58
+    heading: 70
+    dynamicID: dynamic_300
+  type: static_300
+- name: IAC_10
+  endA:
+    attachID: fowt58
+    heading: 250
+    dynamicID: dynamic_300
+  endB:
+    attachID: fowt57
+    heading: 70
+    dynamicID: dynamic_300
+  type: static_300
+- name: IAC_11
+  endA:
+    attachID: substation
+    heading: 322
+    dynamicID: static_1000-3
+  endB:
+    attachID: fowt56
+    heading: 88
+    dynamicID: dynamic_1000
+  type: static_1000-2
+- name: IAC_12
+  endA:
+    attachID: fowt56
+    heading: 250
+    dynamicID: dynamic_630
+  endB:
+    attachID: fowt55
+    heading: 70
+    dynamicID: dynamic_630
+  type: static_630
+- name: IAC_13
+  endA:
+    attachID: fowt55
+    heading: 250
+    dynamicID: dynamic_630
+  endB:
+    attachID: fowt54
+    heading: 70
+    dynamicID: dynamic_630
+  type: static_630
+- name: IAC_14
+  endA:
+    attachID: fowt54
+    heading: 250
+    dynamicID: dynamic_630
+  endB:
+    attachID: fowt53
+    heading: 70
+    dynamicID: dynamic_630
+  type: static_630
+- name: IAC_15
+  endA:
+    attachID: fowt53
+    heading: 250
+    dynamicID: dynamic_300
+  endB:
+    attachID: fowt52
+    heading: 70
+    dynamicID: dynamic_300
+  type: static_300
+- name: IAC_16
+  endA:
+    attachID: fowt52
+    heading: 250
+    dynamicID: dynamic_300
+  endB:
+    attachID: fowt51
+    heading: 70
+    dynamicID: dynamic_300
+  type: static_300
+- name: IAC_17
+  endA:
+    attachID: fowt51
+    heading: 250
+    dynamicID: dynamic_300
+  endB:
+    attachID: fowt50
+    heading: 70
+    dynamicID: dynamic_300
+  type: static_300
+- name: IAC_18
+  endA:
+    attachID: fowt50
+    heading: 250
+    dynamicID: dynamic_300
+  endB:
+    attachID: fowt49
+    heading: 70
+    dynamicID: dynamic_300
+  type: static_300
+- name: IAC_19
+  endA:
+    attachID: fowt49
+    heading: 250
+    dynamicID: dynamic_300
+  endB:
+    attachID: fowt48
+    heading: 70
+    dynamicID: dynamic_300
+  type: static_300
+- name: IAC_20
+  endA:
+    attachID: substation
+    heading: 301
+    dynamicID: None
+  endB:
+    attachID: fowt47
+    heading: 101
+    dynamicID: dynamic_1000
+  type: static_1000-4
+- name: IAC_21
+  endA:
+    attachID: fowt47
+    heading: 250
+    dynamicID: dynamic_1000
+  endB:
+    attachID: fowt46
+    heading: 70
+    dynamicID: dynamic_1000
+  type: static_1000
+- name: IAC_22
+  endA:
+    attachID: fowt46
+    heading: 250
+    dynamicID: dynamic_630
+  endB:
+    attachID: fowt45
+    heading: 70
+    dynamicID: dynamic_630
+  type: static_630
+- name: IAC_23
+  endA:
+    attachID: fowt45
+    heading: 250
+    dynamicID: dynamic_630
+  endB:
+    attachID: fowt44
+    heading: 70
+    dynamicID: dynamic_630
+  type: static_630
+- name: IAC_24
+  endA:
+    attachID: fowt44
+    heading: 250
+    dynamicID: dynamic_630
+  endB:
+    attachID: fowt43
+    heading: 70
+    dynamicID: dynamic_630
+  type: static_630
+- name: IAC_25
+  endA:
+    attachID: fowt43
+    heading: 250
+    dynamicID: dynamic_300
+  endB:
+    attachID: fowt42
+    heading: 70
+    dynamicID: dynamic_300
+  type: static_300
+- name: IAC_26
+  endA:
+    attachID: fowt42
+    heading: 250
+    dynamicID: dynamic_300
+  endB:
+    attachID: fowt41
+    heading: 70
+    dynamicID: dynamic_300
+  type: static_300
+- name: IAC_27
+  endA:
+    attachID: fowt41
+    heading: 250
+    dynamicID: dynamic_300
+  endB:
+    attachID: fowt40
+    heading: 70
+    dynamicID: dynamic_300
+  type: static_300
+- name: IAC_28
+  endA:
+    attachID: fowt40
+    heading: 250
+    dynamicID: dynamic_300
+  endB:
+    attachID: fowt39
+    heading: 70
+    dynamicID: dynamic_300
+  type: static_300
+- name: IAC_29
+  endA:
+    attachID: fowt39
+    heading: 250
+    dynamicID: dynamic_300
+  endB:
+    attachID: fowt38
+    heading: 70
+    dynamicID: dynamic_300
+  type: static_300
+- name: IAC_30
+  endA:
+    attachID: substation
+    heading: 270
+    dynamicID: None
+  endB:
+    attachID: fowt37
+    heading: 70
+    dynamicID: dynamic_1000
+  type: static_1000-5
+- name: IAC_31
+  endA:
+    attachID: fowt37
+    heading: 250
+    dynamicID: dynamic_630
+  endB:
+    attachID: fowt36
+    heading: 70
+    dynamicID: dynamic_630
+  type: static_630
+- name: IAC_32
+  endA:
+    attachID: fowt36
+    heading: 250
+    dynamicID: dynamic_630
+  endB:
+    attachID: fowt35
+    heading: 70
+    dynamicID: dynamic_630
+  type: static_630
+- name: IAC_33
+  endA:
+    attachID: fowt35
+    heading: 250
+    dynamicID: dynamic_630
+  endB:
+    attachID: fowt34
+    heading: 70
+    dynamicID: dynamic_630
+  type: static_630
+- name: IAC_34
+  endA:
+    attachID: fowt34
+    heading: 250
+    dynamicID: dynamic_300
+  endB:
+    attachID: fowt33
+    heading: 70
+    dynamicID: dynamic_300
+  type: static_300
+- name: IAC_35
+  endA:
+    attachID: fowt33
+    heading: 250
+    dynamicID: dynamic_300
+  endB:
+    attachID: fowt32
+    heading: 70
+    dynamicID: dynamic_300
+  type: static_300
+- name: IAC_36
+  endA:
+    attachID: fowt32
+    heading: 250
+    dynamicID: dynamic_300
+  endB:
+    attachID: fowt31
+    heading: 70
+    dynamicID: dynamic_300
+  type: static_300
+- name: IAC_37
+  endA:
+    attachID: fowt31
+    heading: 250
+    dynamicID: dynamic_300
+  endB:
+    attachID: fowt30
+    heading: 70
+    dynamicID: dynamic_300
+  type: static_300
+- name: IAC_38
+  endA:
+    attachID: fowt30
+    heading: 250
+    dynamicID: dynamic_300
+  endB:
+    attachID: fowt29
+    heading: 70
+    dynamicID: dynamic_300
+  type: static_300
+- name: IAC_39
+  endA:
+    attachID: substation
+    heading: 240
+    dynamicID: None
+  endB:
+    attachID: fowt28
+    heading: 40
+    dynamicID: dynamic_1000
+  type: static_1000-6
+- name: IAC_40
+  endA:
+    attachID: fowt28
+    heading: 250
+    dynamicID: dynamic_1000
+  endB:
+    attachID: fowt27
+    heading: 70
+    dynamicID: dynamic_1000
+  type: static_1000
+- name: IAC_41
+  endA:
+    attachID: fowt27
+    heading: 250
+    dynamicID: dynamic_630
+  endB:
+    attachID: fowt26
+    heading: 70
+    dynamicID: dynamic_630
+  type: static_630
+- name: IAC_42
+  endA:
+    attachID: fowt26
+    heading: 250
+    dynamicID: dynamic_630
+  endB:
+    attachID: fowt25
+    heading: 70
+    dynamicID: dynamic_630
+  type: static_630
+- name: IAC_43
+  endA:
+    attachID: fowt25
+    heading: 250
+    dynamicID: dynamic_630
+  endB:
+    attachID: fowt24
+    heading: 70
+    dynamicID: dynamic_630
+  type: static_630
+- name: IAC_44
+  endA:
+    attachID: fowt24
+    heading: 250
+    dynamicID: dynamic_300
+  endB:
+    attachID: fowt23
+    heading: 70
+    dynamicID: dynamic_300
+  type: static_300
+- name: IAC_45
+  endA:
+    attachID: fowt23
+    heading: 250
+    dynamicID: dynamic_300
+  endB:
+    attachID: fowt22
+    heading: 70
+    dynamicID: dynamic_300
+  type: static_300
+- name: IAC_46
+  endA:
+    attachID: fowt22
+    heading: 250
+    dynamicID: dynamic_300
+  endB:
+    attachID: fowt21
+    heading: 70
+    dynamicID: dynamic_300
+  type: static_300
+- name: IAC_47
+  endA:
+    attachID: fowt21
+    heading: 250
+    dynamicID: dynamic_300
+  endB:
+    attachID: fowt20
+    heading: 70
+    dynamicID: dynamic_300
+  type: static_300
+- name: IAC_48
+  endA:
+    attachID: fowt20
+    heading: 250
+    dynamicID: dynamic_300
+  endB:
+    attachID: fowt19
+    heading: 70
+    dynamicID: dynamic_300
+  type: static_300
+- name: IAC_49
+  endA:
+    attachID: substation
+    heading: 214
+    dynamicID: static_1000-7
+  endB:
+    attachID: fowt18
+    heading: 52
+    dynamicID: dynamic_1000
+  type: static_1000-8
+- name: IAC_50
+  endA:
+    attachID: fowt18
+    heading: 250
+    dynamicID: dynamic_630
+  endB:
+    attachID: fowt17
+    heading: 70
+    dynamicID: dynamic_630
+  type: static_630
+- name: IAC_51
+  endA:
+    attachID: fowt17
+    heading: 250
+    dynamicID: dynamic_630
+  endB:
+    attachID: fowt16
+    heading: 70
+    dynamicID: dynamic_630
+  type: static_630
+- name: IAC_52
+  endA:
+    attachID: fowt16
+    heading: 250
+    dynamicID: dynamic_630
+  endB:
+    attachID: fowt15
+    heading: 70
+    dynamicID: dynamic_630
+  type: static_630
+- name: IAC_53
+  endA:
+    attachID: fowt15
+    heading: 250
+    dynamicID: dynamic_300
+  endB:
+    attachID: fowt14
+    heading: 70
+    dynamicID: dynamic_300
+  type: static_300
+- name: IAC_54
+  endA:
+    attachID: fowt14
+    heading: 250
+    dynamicID: dynamic_300
+  endB:
+    attachID: fowt13
+    heading: 70
+    dynamicID: dynamic_300
+  type: static_300
+- name: IAC_55
+  endA:
+    attachID: fowt13
+    heading: 250
+    dynamicID: dynamic_300
+  endB:
+    attachID: fowt12
+    heading: 70
+    dynamicID: dynamic_300
+  type: static_300
+- name: IAC_56
+  endA:
+    attachID: fowt12
+    heading: 250
+    dynamicID: dynamic_300
+  endB:
+    attachID: fowt11
+    heading: 70
+    dynamicID: dynamic_300
+  type: static_300
+- name: IAC_57
+  endA:
+    attachID: fowt11
+    heading: 250
+    dynamicID: dynamic_300
+  endB:
+    attachID: fowt10
+    heading: 70
+    dynamicID: dynamic_300
+  type: static_300
+- name: IAC_58
+  endA:
+    attachID: substation
+    heading: 209
+    dynamicID: None
+  endB:
+    attachID: fowt9
+    heading: 9
+    dynamicID: dynamic_1000
+  type: static_1000-9
+- name: IAC_59
+  endA:
+    attachID: fowt9
+    heading: 250
+    dynamicID: dynamic_1000
+  endB:
+    attachID: fowt8
+    heading: 70
+    dynamicID: dynamic_1000
+  type: static_1000
+- name: IAC_60
+  endA:
+    attachID: fowt8
+    heading: 250
+    dynamicID: dynamic_630
+  endB:
+    attachID: fowt7
+    heading: 70
+    dynamicID: dynamic_630
+  type: static_630
+- name: IAC_61
+  endA:
+    attachID: fowt7
+    heading: 250
+    dynamicID: dynamic_630
+  endB:
+    attachID: fowt6
+    heading: 70
+    dynamicID: dynamic_630
+  type: static_630
+- name: IAC_62
+  endA:
+    attachID: fowt6
+    heading: 250
+    dynamicID: dynamic_630
+  endB:
+    attachID: fowt5
+    heading: 70
+    dynamicID: dynamic_630
+  type: static_630
+- name: IAC_63
+  endA:
+    attachID: fowt5
+    heading: 250
+    dynamicID: dynamic_300
+  endB:
+    attachID: fowt4
+    heading: 70
+    dynamicID: dynamic_300
+  type: static_300
+- name: IAC_64
+  endA:
+    attachID: fowt4
+    heading: 250
+    dynamicID: dynamic_300
+  endB:
+    attachID: fowt3
+    heading: 70
+    dynamicID: dynamic_300
+  type: static_300
+- name: IAC_65
+  endA:
+    attachID: fowt3
+    heading: 250
+    dynamicID: dynamic_300
+  endB:
+    attachID: fowt2
+    heading: 70
+    dynamicID: dynamic_300
+  type: static_300
+- name: IAC_66
+  endA:
+    attachID: fowt2
+    heading: 250
+    dynamicID: dynamic_300
+  endB:
+    attachID: fowt1
+    heading: 70
+    dynamicID: dynamic_300
+  type: static_300
+- name: IAC_67
+  endA:
+    attachID: fowt1
+    heading: 250
+    dynamicID: dynamic_300
+  endB:
+    attachID: fowt0
+    heading: 70
+    dynamicID: dynamic_300
+  type: static_300
+
+dynamic_cable_configs:
+  dynamic_300:
+    cable_type: dyn_cab_300
+    A: 300.0 #[mm^2] cable size
+    span: 300.0 # [m] dynamic cable horizontal span
+    length: 486.0 # [m] dynamic cable length 
+    voltage: 66.0 # [kV] voltage rating
+    sections:                   # appendages to cable in order from end A to end B
+    - type: bend_stiffener_300 # cable connector to platform A
+    - L_mid: 339.5           # bend stiffener
+      N_modules: 1           # number of buoyancy modules
+      type: buoy_0
+    - type: submarine_joint
+    rJTube: 0                   # 0 is a simplification, in reality presumed to be at the edge of the central column (~5m)
+  dynamic_630:
+    cable_type: dyn_cab_630
+    A: 630 #[mm^2] cable size
+    span: 300.0  # [m] dynamic cable horizontal span
+    length: 486.0 # [m] dynamic cable length 
+    voltage: 66.0 # [kV] voltage rating
+    sections:
+    - type: bend_stiffener_630
+    - L_mid: 339.5           # buoyancy section
+      N_modules: 1
+      type: buoy_0
+    - type: submarine_joint
+    rJTube: 0
+  dynamic_1000:  
+    cable_type: dyn_cab_1000
+    A: 1000 #[mm^2] cable size
+    span: 300.0 # [m] dynamic cable horizontal span
+    length: 486.0 # [m] dynamic cable length 
+    voltage: 66.0 # [kV] voltage rating
+    sections:
+    - type: bend_stiffener_1000  # cable connector to platform
+    - L_mid: 339.5           # buoyancy section
+      N_modules: 1
+      type: buoy_0
+    - type: submarine_joint             # joint connecting to static cable section
+    rJTube: 0                    # radial distance to J-tube from platform center
+  static_300:
+    cable_type: stat_cab_300
+    A: 300
+    length: 1081
+    voltage: 66.0 # [kV] voltage rating
+    sections:
+    - type: submarine_joint
+    - type: submarine_joint
+  static_630:
+    cable_type: stat_cab_630
+    A: 630
+    length: 1081
+    voltage: 66.0 # [kV] voltage rating
+    sections:
+    - type: submarine_joint
+    - type: submarine_joint
+  static_1000:
+    cable_type: stat_cab_1000
+    A: 1000
+    length: 1081
+    voltage: 66.0 # [kV] voltage rating
+    sections:
+    - type: submarine_joint
+    - type: submarine_joint  
+  static_1000-1:
+    cable_type: stat_cab_1000
+    A: 1000
+    length: 5493
+    voltage: 66.0 # [kV] voltage rating
+    sections:
+    - type: submarine_joint
+    - type: submarine_joint
+  static_1000-2:
+    cable_type: stat_cab_1000
+    A: 1000
+    length: 1141
+    voltage: 66.0 # [kV] voltage rating
+    sections:
+    - type: submarine_joint
+    - type: submarine_joint  
+  static_1000-3:
+    cable_type: stat_cab_1000
+    A: 1000
+    length: 3719
+    voltage: 66.0 # [kV] voltage rating
+    sections:
+    - type: submarine_joint
+    - type: submarine_joint  
+  static_1000-4:
+    cable_type: stat_cab_1000
+    A: 1000
+    length: 2984
+    voltage: 66.0 # [kV] voltage rating
+    sections:
+    - type: submarine_joint
+    - type: submarine_joint  
+  static_1000-5:
+    cable_type: stat_cab_1000
+    A: 1000
+    length: 3344
+    voltage: 66.0 # [kV] voltage rating
+    sections:
+    - type: submarine_joint
+    - type: submarine_joint
+  static_1000-6:
+    cable_type: stat_cab_1000
+    A: 1000
+    length: 2954
+    voltage: 66.0 # [kV] voltage rating
+    sections:
+    - type: submarine_joint
+    - type: submarine_joint  
+  static_1000-7:
+    cable_type: stat_cab_1000
+    A: 1000
+    length: 3335
+    voltage: 66.0 # [kV] voltage rating
+    sections:
+    - type: submarine_joint
+    - type: submarine_joint  
+  static_1000-8:
+    cable_type: stat_cab_1000
+    A: 1000
+    length: 1561
+    voltage: 66.0 # [kV] voltage rating
+    sections:
+    - type: submarine_joint
+    - type: submarine_joint  
+  static_1000-9:
+    cable_type: stat_cab_1000
+    A: 1000
+    length: 5442
+    voltage: 66.0 # [kV] voltage rating
+    sections:
+    - type: submarine_joint
+    - type: submarine_joint      
+
+cable_types: # copied from Deepwater yaml
+  dyn_cab_630:
+    name: dynamic_cable_630mm
+    m: 55.76032503534361
+    EA: 658013418.058403
+    EI: 42465.860390790636
+    w: 279.6370013719994
+    MBL: 537453.5244977144
+    MBR: 2.759991035821002
+    A: 630.0
+    power: 125031558.62299062
+    resistance: 0.0380952380952381
+    voltage: 66.0
+    cost: 713
+    notes: made with getCableProps
+    d_vol: 0.1839994023880668
+  dyn_cab_300:
+    name: dynamic_cable_300mm
+    m: 36.66419531336287
+    EA: 469622033.24936056
+    EI: 19916.10897643939
+    w: 155.82772548702889
+    MBL: 383237.99297699344
+    MBR: 2.4099228634059946
+    A: 300.0
+    power: 84694364.82376207
+    resistance: 0.08
+    voltage: 66.0
+    cost: 539
+    notes: made with getCableProps
+    d_vol: 0.1606615242270663
+  stat_cab_300:
+    name: static_cable_300mm
+    d: 0.15396152422706633
+    m: 30.184309210840546
+    EA: 286833696.25348383
+    EI: 7679.657270398245
+    w: 108.90750709541506
+    MBL: 183724.16055912877
+    MBR: 2.309422863405995
+    A: 300
+    power: 84694364.82376207
+    resistance: 0.08
+    voltage: 66.0
+    cost: 500
+    notes: made with getCableProps
+  stat_cab_630:
+    name: static_cable_630mm
+    d: 0.1772994023880668
+    m: 45.32999798354779
+    EA: 417238593.86007315
+    EI: 17596.455171628895
+    w: 196.432684103527
+    MBL: 260460.0959348103
+    MBR: 2.6594910358210018
+    A: 630
+    power: 125031558.62299062
+    resistance: 0.0380952380952381
+    voltage: 66.0
+    cost: 655
+    notes: made with getCableProps
+  dyn_cab_1000:
+    name: dynamic_cable_1000mm
+    m: 75.7440231734922
+    EA: 854377279.9884987
+    EI: 68729.18743088475
+    w: 415.78113966445324
+    MBL: 698460.434218842
+    MBR: 3.0535249470757706
+    A: 1000.0
+    power: 159355059.41830036
+    resistance: 0.024
+    voltage: 66.0
+    cost: 1041.82
+    notes: made with getCableProps
+    d_vol: 0.20356832980505138
+  stat_cab_1000:
+    name: static_cable_1000mm
+    d: 0.19686832980505137
+    m: 60.876113832386956
+    EA: 551017280.6846389
+    EI: 29589.363667426773
+    w: 291.11501842638484
+    MBL: 342477.98651723727
+    MBR: 2.9530249470757703
+    A: 1000
+    power: 159355059.41830036
+    resistance: 0.024
+    voltage: 66.0
+    cost: 958.5699999999999
+    notes: made with getCableProps
+
+cable_appendages:
+  submarine_joint:
+    type: submarine_joint
+    cost:  118500   # [$] cost per unit                          
+  buoy_0:
+    type: buoy
+    d: 0.39              # diameter (m)
+    l: 129               # [m] length along cable
+    volume: 11.98  # [m^3] displaced volume
+    cost: 33000          # [$/m^3] cost per unit volume
+  bend_stiffener_300:
+    type: bend_stiffener
+    material: polyurethane
+    d0: 0.7 # diameter at L=0m
+    d1: 0.38 # diameter at L=4m
+    density: 1200
+    l: 4      # [m]   length 
+    E: 45e6
+    volume: 1 # [m^3] Displaced volume
+    cost: 101500 # [$] cost per unit
+  bend_stiffener_630:
+    type: bend_stiffener
+    material: polyurethane
+    d0: 0.7 # diameter at L=0m
+    d1: 0.38 # diameter at L=4m
+    density: 1200
+    l: 4      # [m]   length 
+    E: 45e6
+    volume: 1 # [m^3] Displaced volume
+    cost: 136500 # [$] cost per unit
+  bend_stiffener_1000:
+    type: bend_stiffener
+    material: polyurethane
+    d0: 0.7 # diameter at L=0m
+    d1: 0.38 # diameter at L=4m
+    density: 1200
+    l: 4      # [m]   length 
+    E: 45e6
+    volume: 1 # [m^3] Displaced volume
+    cost: 176000 # [$] cost per unit
+
